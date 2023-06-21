@@ -51,94 +51,10 @@ html, body {
 }
 /* ---------------------------------------- */
 
- /* Версия 1 Изначальная до просмотра видео */
-
-.container {
-   width: 1200px;
-	margin: 20px auto;
-}
-
-.block-parent {
-   font-size: 0;
-}
-
-.block-child-w400 {
-   display: inline-block;
-   outline: 1px solid blue; 
-   font-size: 20px;
-   width: 400px;
-   height: 400px;
-   background: yellow;
-}
-
-.block-child-w800 {
-   display: inline-block;
-   font-size: 20px;
-   width: 800px;
-   height: 400px;
-   background: lightblue;
-}
-
-.block-child-w400 div {
-   outline: 1px solid blue;  
-   height: 133.33px;
-   
-}
-
-.block-child-w800 div {
-   outline: 1px solid blue;
-   height: 200px;
-}
-
-
-.block-child-w800-parent {
-   outline: 1px solid blue;
-   display: inline-block;
-   font-size: 20px;
-   width: 800px;
-   background: lightblue;
-}
-
-
-.block-child-w800-parent div {
-   width: 800px;
-   height: 200px;
-}
-
-.block-child-w400-parent {
-   font-size: 0;
-   outline: 1px solid blue;
-}
-
-.block-child-w400-parent div {
-   display: inline-block;
-   outline: 1px solid blue; 
-   font-size: 20px;
-   width: 400px;
-   height: 200px;
-   background: yellow;
-}
-
-.block-child-w400-parent > div + div {
-   display: inline-block; 
-   font-size: 20px;
-   width: 400px;
-   background: yellow;
-}
-
-.block-child-w400-parent > div + div > div {
-   outline: 1px solid blue;
-   height: 100px;
-   overflow: hidden;
-}
-
-/* --------------------------------------- */
-
-/* Версия 2 - по видео */
-
 .box {
    width: 1200px;
    margin: 20px auto;
+   font-size: 20px;
 }
 
 /* inline-block */
@@ -199,4 +115,13 @@ html, body {
 .h-400 {
    height: 400px;
 }
+
+.child-float {
+   float: left;
+}
+
+.clr {
+   clear: both;
+}
+
 
